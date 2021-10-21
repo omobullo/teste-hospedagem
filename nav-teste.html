@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navbar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+</head>
+<body style="background-image: url('textura-desenhado-à-mão-abstrata-sem-emenda-das-ondas-fundo-ondulado-sea-50391650.jpg');
+background-repeat: repeat;">
+    <div class="principal">
+teste
+        <nav>
+            <ul style="list-style: none;">
+                <li>
+                    <a href="https://www.deviantart.com/" target="_blank" style="text-decoration: none; color: white; font-family: Verdana, Geneva, sans-serif;"> Deviantart </a>
+                </li>
+                <li> 
+                    <a href="https://brasilescola.uol.com.br/historiag/historia-da-arte.htm" target="_blank"style="text-decoration: none; color: white; font-family: Verdana, Geneva, sans-serif;"> História da Arte </a>
+                </li>
+                <li> 
+                    <a href="https://artsandculture.google.com/exhibit/arte-do-brasil-at%C3%A9-1900/jAISTqF8WN4CKg" target="_blank" style="text-decoration: none; color: white; font-family: Verdana, Geneva, sans-serif;">Google Arts & Culture </a>
+                </li>
+            </ul>
+        </nav>
+        escreva seu nome aqui:<input> 
+        
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="Prancheta 1.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="polvo.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="primeira-nave-desenho.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <button type="button" class="btn btn-outline-primary" onclick="abrir()"> clique aqui </button> 
+          <div class="popup" id="popup">
+              popupei
+          </div>
+    </div>
+    <div*</div>
+<style>
+    .popup{
+        
+        position: absolute;
+        width: 100rem;
+        height: 100rem;
+        background-color: gray;
+        opacity: 0.5;
+        display: none;
+    }
+.principal{
+    background-color: honeydew;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+nav{
+    background-color:#00BFFF;
+    color: white;
+    font-weight: bold;
+    width: 100%;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+li{
+    width: 100%;
+    height: 100%;
+    padding: 2%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+}
+li:hover{
+    background-color: #4169E1;
+    cursor: pointer;
+}
+</style>
+<script>
+    function abrir(){
+        window.document.style.getElementById('popup').display="block"
+    }
+</script>
+</body>
+</html>
